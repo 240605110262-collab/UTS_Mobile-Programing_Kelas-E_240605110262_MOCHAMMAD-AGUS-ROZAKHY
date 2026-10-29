@@ -1,0 +1,22 @@
+name: jelajah_malang
+description: Aplikasi panduan wisata Malang Raya (UTS Mobile Programming).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  # Daftarkan file JSON agar ikut dibundel ke dalam aplikasi
+  assets:
+    - assets/data/destinasi.json
